@@ -1,13 +1,16 @@
-import React from 'react'
-import './App.css'
-import Loader from './Components/Loader/Loader'
-
+import "./App.css";
+import Loader from "./Components/Loader/Loader";
+import Home from "./Components/Home/Home";
+import { useEffect,useState } from "react";
 function App() {
-  return (
-    <div className="App">
-      <Loader/>
-    </div>                                                                                                                                                                    
-  )
+  const [showLoader, setShowLoader] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLoader(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [showLoader]);
+  return <div className="App">{showLoader ? <Loader /> : <Home />}</div>;
 }
 
-export default App
+export default App;
