@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { LogoImage } from "../assets/imgs/HomePage";
 export default function Navbar() {
   return (
@@ -28,7 +28,7 @@ export default function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item dropdown">
-              <NavLink
+              <Link
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
                 href="#"
@@ -37,7 +37,7 @@ export default function Navbar() {
                 aria-expanded="false"
               >
                 <span className="rolling-text">Home</span>
-              </NavLink>
+              </Link>
               <div className="dropdown-menu mega-menu">
                 <div className="container">
                   <div className="row">

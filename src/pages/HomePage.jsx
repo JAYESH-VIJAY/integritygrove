@@ -1,4 +1,9 @@
-import Navbar from "./../components/Navbar";
+import IntroSlider from "../components/HomePage/IntroSlider";
+
 export default function HomePage() {
-  return <Navbar />;
+  return (
+    <main className="main-bg">
+      <IntroSlider/>
+    </main>
+  );
 }

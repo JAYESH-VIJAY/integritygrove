@@ -1,2 +1,4 @@
 import LogoImage from "./logo-light.png";
-export { LogoImage };
+import HomeSliderBackground from './background/14.jpg';
+export { LogoImage ,HomeSliderBackground};
+
