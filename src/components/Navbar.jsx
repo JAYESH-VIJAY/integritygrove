@@ -48,7 +48,7 @@ export default function Navbar() {
                         </div>
                         <div className="links">
                           <Link className="dropdown-item" href="home-main.html">
-                            Main HOME
+                            Main Home
                           </Link>
                           <Link
                             className="dropdown-item"
