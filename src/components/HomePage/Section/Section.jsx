@@ -4,8 +4,6 @@ import aboutimg2 from "../../../assets/imgs/HomePage/about/1.jpg"
 import abouticon1 from "../../../assets/imgs/HomePage/serv-icons/0.png"
 import abouticon2 from "../../../assets/imgs/HomePage/serv-icons/1.png"
 
-
-
 const Section = () => {
     return (
 
