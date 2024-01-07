@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HomeSliderBackground } from "./../../assets/imgs/HomePage";
+import { HomeSliderBackground } from "../../assets/imgs/HomePage";
 export default function IntroSlider() {
   return (
     <div className="main-box main-bg ontop">

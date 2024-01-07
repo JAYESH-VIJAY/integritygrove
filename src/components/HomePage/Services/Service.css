@@ -1,0 +1,248 @@
+
+.serv-box .curve {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+    z-index: 99;
+}
+
+.serv-box .curve svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.serv-box .serv-item {
+    padding: 60px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.serv-box .serv-item .arrow svg {
+    height: 25px;
+    fill: #fff;
+}
+
+.serv-box .lg-pad {
+    padding: 60px;
+}
+
+.serv-box .crv-more a {
+    width: 100%;
+    padding: 15px 0px 15px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    position: relative;
+}
+
+.serv-box .crv-more a svg {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+}
+
+.serv-box .crv-more a:hover {
+    background: #fff;
+    color: #181314;
+}
+
+.maz-serv {
+    position: relative;
+}
+
+.maz-serv .item-serv {
+    padding: 30px 50px;
+}
+
+.maz-serv .main-marq {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+
+.half-sub-right {
+    position: relative;
+}
+
+.half-sub-right:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50% - 50px);
+    height: 100%;
+    background: #1a1a1a;
+    z-index: -1;
+}
+
+.services-tab .serv-tab-cont .item {
+    position: relative;
+}
+
+.services-tab .serv-tab-cont .item .img {
+    width: 70%;
+    height: 540px;
+}
+
+.services-tab .serv-tab-cont .item .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+.services-tab .serv-tab-cont .item .cont {
+    position: absolute;
+    bottom: -80px;
+    left: 20%;
+    right: 0;
+    padding: 80px 40px;
+}
+
+.services-tab .serv-tab-link .item-link {
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.services-tab .serv-tab-link .item-link span {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.services-tab .half-img-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: left top;
+    background-size: 50%;
+    pointer-events: none;
+}
+
+.services-tab.revers .serv-tab-cont .item {
+    position: relative;
+}
+
+.services-tab.revers .serv-tab-cont .item .img {
+    width: 70%;
+    margin-left: 30%;
+    height: 540px;
+}
+
+.services-tab.revers .serv-tab-cont .item .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+.services-tab.revers .serv-tab-cont .item .cont {
+    position: absolute;
+    bottom: -2px;
+    right: 30%;
+    left: auto;
+    padding: 60px 40px;
+}
+
+.services-tab.revers .serv-tab-cont .item .cont .bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    pointer-events: none;
+}
+
+.serv-img-reveal .block__title {
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.serv-img-reveal .block__title:hover {
+    border-color: #eee;
+}
+
+.serv-img-reveal .block[data-fx="1"] a::after,
+.serv-img-reveal a.content__text-link[data-fx="1"]::after {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    bottom: 0.25rem;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    background: currentColor;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+    -webkit-transform-origin: 0% 50%;
+    -ms-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    -o-transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.serv-img-reveal a.content__text-link[data-fx="1"]::after {
+    bottom: 0;
+}
+
+.serv-img-reveal .hover-reveal {
+    position: fixed;
+    width: 240px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transform: rotate(-15deg) translateY(-90px) translateX(50px);
+    -ms-transform: rotate(-15deg) translateY(-90px) translateX(50px);
+    transform: rotate(-15deg) translateY(-90px) translateX(50px);
+}
+
+.serv-img-reveal .hover-reveal__inner,
+.serv-img-reveal .hover-reveal__img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.serv-img-reveal .hover-reveal__deco {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #181314;
+}
+
+.serv-img-reveal .hover-reveal__img {
+    background-size: cover;
+    background-position: 50% 50%;
+}

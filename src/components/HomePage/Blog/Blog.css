@@ -1,0 +1,291 @@
+
+.blog-list .item {
+    padding: 40px;
+    position: relative;
+}
+
+.blog-list .item:hover .background {
+    opacity: 1;
+    background-position: center bottom;
+}
+
+.blog-list .item .info .author {
+    margin-right: 20px;
+}
+
+.blog-list .item .info .author .img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.blog-list .item .info .author .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.blog-list .item .tags a {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    margin: 5px 5px 5px 0;
+}
+
+.blog-list .item .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    opacity: 0;
+    -webkit-transition: opacity .4s, background-position 10s linear;
+    -o-transition: opacity .4s, background-position 10s linear;
+    transition: opacity .4s, background-position 10s linear;
+}
+
+.blog-list .item .background .more a {
+    font-size: 14px;
+    padding: 14px 35px;
+    background: #c9f31d;
+    border-radius: 30px;
+}
+
+.blog-list .item .background .more a span,
+.blog-list .item .background .more a i {
+    color: #000;
+}
+
+.blog-list2 .item {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.blog-list2 .item:first-of-type {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog-list2 .item:hover {
+    border-bottom-color: #eee;
+}
+
+.blog-list2 .item:hover .title a {
+    text-decoration: underline;
+}
+
+.blog-list2 .item:hover .img img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.blog-list2 .item .categ a {
+    padding: 8px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+.blog-list2 .item .img {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.blog-list2 .item .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.blog-modern .item {
+    padding-right: 60px;
+}
+
+.blog-modern .item .img {
+    position: relative;
+}
+
+.blog-modern .item .img .date {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 60px;
+    right: -70px;
+    -webkit-transform: rotate(-90deg) translateX(-50%) translateY(100%);
+    -ms-transform: rotate(-90deg) translateX(-50%) translateY(100%);
+    transform: rotate(-90deg) translateX(-50%) translateY(100%);
+    opacity: .7;
+}
+
+.blog-modern .item .img .date:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    width: 50px;
+    border-bottom: 1px solid #cecece;
+}
+
+.blog-crev .item .cont .info {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-crev .item .cont .info .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 30px;
+}
+
+.blog-crev .item .img {
+    position: relative;
+}
+
+.blog-crev .item .img a {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(0);
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    color: #1d1d1d;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.blog-crev .item .img a svg {
+    width: 25px;
+    height: 25px;
+}
+
+.blog-crev .item .img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1d1d1d;
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.blog-crev .item .img:hover a {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.blog-crev .item .img:hover:after {
+    opacity: .7;
+}
+
+.blog-list-half .item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-list-half .item .img {
+    min-height: 300px;
+    padding-right: 0;
+}
+
+.blog-list-half .item .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.blog-list-half .item .cont {
+    padding: 80px 30px;
+}
+
+.blog-list-half .item .cont .tags a {
+    font-size: 13px;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.blog-list-half .item .cont .tags a:hover {
+    background: #f08f74;
+}
+
+.blog-list-half .item .cont .tags.colorbg a:hover {
+    background: #c9f31d;
+    color: #1d1d1d;
+}
+
+.blog-list-half.crev .item {
+    overflow: visible;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog-list-half.crev .item .img {
+    padding: 0 0 0 15px;
+}
+
+.blog-list-half.crev .item .img img {
+    border-radius: 0;
+    position: relative;
+    bottom: -30px;
+}
+
+.blog-list-half.crev .item .cont {
+    padding: 30px 0;
+}
+
