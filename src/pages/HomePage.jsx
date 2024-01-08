@@ -8,22 +8,24 @@
 // import Testimo from "../Components/HomePage/Testimonails/Testimo";
 // import ScrollX from "../Components/HomePage/VerticalScroll/ScrollX";
 // import IntroSlider from "../components/HomePage/IntroSlider";
-import Projects from '../components/landingPage/Projects' 
+import OurTeam from "../components/landingPage/OurTeam";
+import Services from "../components/landingPage/Services";
+
 export default function HomePage() {
   return (
     <main className="main-bg">
-      {/* <IntroSlider /> */}
-      {/* <Header/>
+      {/* <IntroSlider />
+      <Header/>
       <Section />
-      <Marquee /> */}
-      {/* <OurClient /> */}
-      {/* <Service />
+      <Marquee />
+      <OurClient />
+      <Service />
       <ScrollX />
       <TabService/>
       <Testimo/>
       <Blog/> */}
-    <Projects />
-
+      <Services />
+      <OurTeam />
     </main>
   );
 }
