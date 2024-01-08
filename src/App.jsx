@@ -21,6 +21,7 @@ function App() {
       <Route element={<HomeLayout />}>
 
         <Route index element={<HomePage />} />
+        
       </Route>
     </Routes>
   );
