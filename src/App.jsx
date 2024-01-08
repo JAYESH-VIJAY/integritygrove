@@ -18,10 +18,11 @@ function App() {
 
   return (
     <Routes>
-      <Route element={<HomeLayout />}>
-
-        <Route index element={<HomePage />} />
-      </Route>
+      <Route index element={<HomePage />} />
+       <Route element={<HomeLayout />}>
+      
+        
+      </Route> 
     </Routes>
   );
 }
