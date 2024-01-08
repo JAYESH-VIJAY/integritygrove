@@ -20,6 +20,7 @@ function App() {
     <Routes>
       <Route element={<HomeLayout />}>
         <Route index element={<HomePage />} />
+        
       </Route>
     </Routes>
   );
