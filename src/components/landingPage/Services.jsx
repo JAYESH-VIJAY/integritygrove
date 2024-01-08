@@ -1,4 +1,7 @@
 import React from 'react'
+import { icon1 } from '../../assets/imgs/HomePage'
+import { icon2 } from '../../assets/imgs/HomePage'
+import { icon3 } from '../../assets/imgs/HomePage'
 
 function Services() {
   return (
@@ -24,7 +27,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="serv-item md-mb50 radius-10">
               <div className="icon-img-60 mb-40">
-                <img src="assets/imgs/serv-icons/0.png" alt="" />
+                <img src={icon1} alt="" />
               </div>
               <h5 className="mb-30 pb-30 bord-thin-bottom">Brand Strategy &amp; <br /> Art Direction</h5>
               <p>Creating a higher spacing and how people move through a unique.</p>
@@ -33,7 +36,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="serv-item md-mb50 radius-10">
               <div className="icon-img-60 mb-40">
-                <img src="assets/imgs/serv-icons/1.png" alt="" />
+                <img src={icon2} alt="" />
               </div>
               <h5 className="mb-30 pb-30 bord-thin-bottom">UX/UI Design &amp; <br /> Website/App Design</h5>
               <p>Creating a higher spacing and how people move through a unique.</p>
@@ -42,7 +45,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="serv-item radius-10">
               <div className="icon-img-60 mb-40">
-                <img src="assets/imgs/serv-icons/2.png" alt="" />
+                <img src={icon3} alt="" />
               </div>
               <h5 className="mb-30 pb-30 bord-thin-bottom">Typography &amp; <br /> Video Production</h5>
               <p>Creating a higher spacing and how people move through a unique.</p>

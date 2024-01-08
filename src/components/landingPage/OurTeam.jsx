@@ -1,5 +1,4 @@
-import members from "./1.jpg";
-
+import { teammember } from "../../assets/imgs/HomePage";
 function OurTeam() {
   const memberdata = [
     {
@@ -68,7 +67,7 @@ function OurTeam() {
               <div className="col-lg-3 col-md-6" style={{margin:"12px",width:"23%"}} key={index}>
                 <div className="item mb-50" >
                   <div className="img">
-                    <img src={members} alt="" />
+                    <img src={teammember} alt="" />
                   </div>
                   <div className="info mt-20">
                     <span className="fz-12 opacity-8">{data.designation}</span>
@@ -105,63 +104,8 @@ function OurTeam() {
           </div>
         </div>
         </div>
-        {/* <div className="col-lg-3 col-md-6">
-              <div className="item mb-50">
-                <div className="img">
-                  <img src="1.jpg" alt="" />
-                </div>
-                <div className="info mt-20">
-                  <span className="fz-12 opacity-8">Co-Founder</span>
-                  <h6 className="fz-18">Matt Smith</h6>
-                </div>
-              </div>
-            </div> */}
-        {/* <div className="col-lg-3 col-md-6">
-              <div className="item mb-50">
-                <div className="img">
-                  <img src="1.jpg" alt="" />
-                </div>
-                <div className="info mt-20">
-                  <span className="fz-12 opacity-8">Co-Founder</span>
-                  <h6 className="fz-18">Matt Smith</h6>
-                </div>
-              </div>
-            </div> */}
-        {/* <div className="col-lg-3 col-md-6">
-              <div className="item md-mb50">
-                <div className="img">
-                  <img src="1.jpg" alt="" />
-                </div>
-                <div className="info mt-20">
-                  <span className="fz-12 opacity-8">Co-Founder</span>
-                  <h6 className="fz-18">Matt Smith</h6>
-                </div>
-              </div>
-            </div> */}
-        {/* <div className="col-lg-3 col-md-6">
-              <div className="item md-mb50">
-                <div className="img">
-                  <img src="1.jpg" alt="" />
-                </div>
-                <div className="info mt-20">
-                  <span className="fz-12 opacity-8">Co-Founder</span>
-                  <h6 className="fz-18">Matt Smith</h6>
-                </div>
-              </div>
-            </div> */}
-        {/* <div className="col-lg-3 col-md-6">
-              <div className="item sm-mb50">
-                <div className="img">
-                  <img src="1.jpg" alt="" />
-                </div>
-                <div className="info mt-20">
-                  <span className="fz-12 opacity-8">Co-Founder</span>
-                  <h6 className="fz-18">Matt Smith</h6>
-                </div>
-              </div>
-            </div> */}
       </div>
-      {/* </div> */}
+    
     </section>
   );
 }

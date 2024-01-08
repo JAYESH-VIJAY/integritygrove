@@ -7,7 +7,7 @@ const Pricing = () => {
                     <div className="col-lg-8">
                         <div className="position-re">
                             <h6 className="dot-titl colorbg-3 mb-10">Featured Services</h6>
-                            <h2 className="fz-60 fw-700">Our Services</h2>
+                            <h2 className="fz-60 fw-700">Our Plans</h2>
                         </div>
                     </div>
                     <div className="col-lg-4 d-flex align-items-center">
