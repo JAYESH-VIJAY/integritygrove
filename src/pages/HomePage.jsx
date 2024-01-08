@@ -12,8 +12,8 @@ export default function HomePage() {
   return (
     <main className="main-bg">
       <IntroSlider />
-      <Pricing />
       <Services />
+      <Pricing />
       <Projects />
       <Testomonials />
       <OurTeam />
