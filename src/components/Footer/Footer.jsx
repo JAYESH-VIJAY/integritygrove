@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-const Footer = () => {
+function Footer () {
   return (
     <footer className="sub-bg">
       <div className="footer-container">
@@ -116,6 +116,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
