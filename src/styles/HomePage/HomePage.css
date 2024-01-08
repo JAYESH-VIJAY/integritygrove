@@ -4000,7 +4000,7 @@ body.loaded {
 
 /* About
 -----------------------------------------------------------------*/
-
+/* 
 .about-intro .imgs {
     position: relative;
 }
@@ -4547,7 +4547,7 @@ body.loaded {
     height: 400px;
     background-size: cover;
     background-position: center center;
-}
+} */
 
 /* Awards
 -----------------------------------------------------------------*/
@@ -5888,7 +5888,7 @@ body.loaded {
 /* Footer
 -----------------------------------------------------------------*/
 
-footer {
+/* footer {
     position: relative;
 }
 
@@ -5956,7 +5956,7 @@ footer .bg-pattern {
     background-repeat: repeat;
     pointer-events: none;
     opacity: .5;
-}
+} */
 
 /* Pages Header
 -----------------------------------------------------------------*/
@@ -8440,7 +8440,7 @@ header.in-box {
     -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
-
+/* 
 .crev-header {
     min-height: 100vh;
     position: relative;
@@ -8473,7 +8473,7 @@ header.in-box {
 .crev-header .bg-pattern {
     height: auto;
     bottom: 100px;
-}
+} */
 
 /* Team
 -----------------------------------------------------------------*/

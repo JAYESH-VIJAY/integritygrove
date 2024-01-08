@@ -1,0 +1,34 @@
+
+.crev-header {
+    min-height: 100vh;
+    position: relative;
+    padding: 120px 0 0;
+}
+
+.crev-header .caption h1 {
+    font-size: 85px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.crev-header .main-img {
+    height: 400px;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -160px;
+}
+
+.crev-header .main-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+.crev-header .bg-pattern {
+    height: auto;
+    bottom: 100px;
+}

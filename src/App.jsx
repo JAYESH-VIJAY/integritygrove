@@ -19,8 +19,8 @@ function App() {
   return (
     <Routes>
       <Route element={<HomeLayout />}>
-
         <Route index element={<HomePage />} />
+        
       </Route>
     </Routes>
   );

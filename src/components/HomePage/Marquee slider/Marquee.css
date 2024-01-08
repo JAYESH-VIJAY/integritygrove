@@ -1,0 +1,145 @@
+
+.marquee {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    background: #1d1d1d;
+}
+
+.marquee:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -30px;
+    right: -30px;
+    pointer-events: none;
+    background: -webkit-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+    background: -o-linear-gradient(right, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+    background: linear-gradient(to left, #1d1d1d, transparent 300px, transparent calc(100% - 300px), #1d1d1d);
+    z-index: 3;
+}
+
+.marquee h4 {
+    font-size: 70px;
+}
+
+.main-marq {
+    position: relative;
+    padding: 0;
+}
+
+.main-marq:after {
+    position: absolute;
+    top: -30px;
+    bottom: -30px;
+    left: -30px;
+    right: -30px;
+    pointer-events: none;
+    background: -webkit-linear-gradient(right, #181818, rgba(255, 255, 255, 0) 220px, rgba(255, 255, 255, 0) calc(100% - 220px), #181818);
+    background: -o-linear-gradient(right, #181818, rgba(255, 255, 255, 0) 220px, rgba(255, 255, 255, 0) calc(100% - 220px), #181818);
+    background: linear-gradient(to left, #181818, rgba(255, 255, 255, 0) 220px, rgba(255, 255, 255, 0) calc(100% - 220px), #181818);
+}
+
+.main-marq.lrg .box .item h4 {
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.main-marq.xlrg .box .item {
+    padding: 0 30px;
+}
+
+.main-marq.xlrg .box .item h4 {
+    font-size: 10vw;
+    font-weight: 800;
+}
+
+.main-marq .slide-har {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main-marq .strok .item h4 {
+    color: transparent !important;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+.main-marq .strok .item h4 a {
+    color: transparent !important;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+.main-marq .non-strok .item h4 {
+    color: #fff !important;
+    -webkit-text-stroke: 0 !important;
+}
+
+.main-marq .non-strok .item h4 a {
+    color: #fff !important;
+    -webkit-text-stroke: 0 !important;
+}
+
+.main-marq .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main-marq .box .item {
+    padding: 0 30px;
+}
+
+.main-marq .box .item h4 {
+    white-space: nowrap;
+    line-height: 1;
+    margin: 0;
+}
+
+.main-marq .box .item h4 .icon {
+    font-family: 'Sora', sans-serif;
+    margin-bottom: -15px;
+}
+
+.main-marq .box .item h2 {
+    line-height: 1;
+    margin: 0;
+}
+
+.main-marq .box .item:nth-of-type(even) h4 {
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+.main-marq .box .item:nth-of-type(even) h4 a {
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+.main-marq .box:last-of-type .item:nth-of-type(even) h4 {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+
+.main-marq .box:last-of-type .item:nth-of-type(even) h4 a {
+    color: #fff;
+    -webkit-text-stroke: 0;
+}
+
+.main-marq .box:last-of-type .item:nth-of-type(odd) h4 {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.main-marq .box:last-of-type .item:nth-of-type(odd) h4 a {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}

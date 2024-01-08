@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { HomeSliderBackground } from "./../../assets/imgs/HomePage";
+import { HomeSliderBackground } from "../../assets/imgs/HomePage";
+
 export default function IntroSlider() {
   return (
     <div className="main-box main-bg ontop">
       <header
         className="header-main full-height valign bg-img parallaxie"
-        data-background={HomeSliderBackground}
+        style={{ backgroundImage: `url(${HomeSliderBackground})` }}
         data-overlay-dark={7}
       >
         <div className="container ontop">
