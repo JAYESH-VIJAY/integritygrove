@@ -1,5 +1,5 @@
-import "./landingCss/Projects.css";
 import { Image1 } from "../../assets/imgs/HomePage";
+import "./landingCss/Projects.css"
 
 const Projects = () => {
   return (

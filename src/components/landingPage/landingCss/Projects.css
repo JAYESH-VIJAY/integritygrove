@@ -1,161 +1,160 @@
-
-.root{
-    display: flex;
-    gap:40px;
-    padding: 15px;
+.root {
+  display: flex;
+  gap: 40px;
+  padding: 15px;
 }
 
-.root2{
-   margin-top: 20px;
+.root2 {
+  margin-top: 20px;
 }
 
 figure {
-    display: grid;
-    border-radius: 1rem;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  figure > * {
-    grid-area: 1/1;
-    transition: .4s;
-  }
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+figure > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+figure figcaption {
+  display: grid;
+  align-items: end;
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #0000;
+  padding: 0.75rem;
+  background: var(--c, #0009);
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  mask:linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  mask-clip:text,padding-box;
+  margin: -1px;
+}
+figure:hover figcaption {
+  --_i: 0%;
+}
+figure:hover img {
+  transform: scale(1.2);
+}
+@supports not (-webkit-mask-clip: text) {
   figure figcaption {
-    display: grid;
-    align-items: end;
-    font-family: sans-serif;
-    font-size: 2.3rem;
-    font-weight: bold;
-    color: #0000;
-    padding: .75rem;
-    background: var(--c,#0009);
-    clip-path: inset(0 var(--_i,100%) 0 0);
-    -webkit-mask:
-      linear-gradient(#000 0 0),
-      linear-gradient(#000 0 0);
-    -webkit-mask-composite: xor;
-    -webkit-mask-clip: text, padding-box;
-    margin: -1px;
+    -webkit-mask: none;
+    mask:none;
+    color: #fff;
   }
-  figure:hover figcaption{
-    --_i: 0%;
-  }
-  figure:hover img {
-    transform: scale(1.2);
-  }
-  @supports not (-webkit-mask-clip: text) {
-    figure figcaption {
-     -webkit-mask: none;
-     color: #fff;
-    }
-  }
-  
+}
 
 /* ======================================= */
 
-  .btn{
-   margin-top:10px ;
-   padding: 20px;
-   margin-left: 15px;
-   height: 100px;
-  }
+.btn {
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: 15px;
+  height: 100px;
+}
 
-  .project-btn {
-    position: relative;
-    background: #444;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: none;
-    letter-spacing: 0.1rem;
-    font-size: 1rem;
-    padding: 1rem 3rem;
-    transition: 0.2s;
-    cursor: pointer;
+.project-btn {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.project-btn:hover {
+  letter-spacing: 0.2rem;
+  padding: 1.1rem 3.1rem;
+  background: #39ff14;
+  color: #fff;
+  /* box-shadow: 0 0 35px var(--clr); */
+  animation: box 3s infinite;
+}
+
+.project-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #272822;
+}
+
+.project-btn span {
+  position: relative;
+  z-index: 1;
+}
+.project-btn i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.project-btn i::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 80%;
+  top: -2px;
+  border: 2px solid #39ff14;
+  background: #272822;
+  transition: 0.2s;
+}
+
+.project-btn:hover i::before {
+  width: 15px;
+  left: 20%;
+  animation: move 3s infinite;
+}
+
+.project-btn i::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 2px solid #39ff14;
+  background: #272822;
+  transition: 0.2s;
+}
+
+.project-btn:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
   }
-  
-  .project-btn:hover {
-    letter-spacing: 0.2rem;
-    padding: 1.1rem 3.1rem;
-    background:  #39FF14 ;
-    color: #fff;
-    /* box-shadow: 0 0 35px var(--clr); */
-    animation: box 3s infinite;
+  50% {
+    transform: translateX(5px);
   }
-  
-  .project-btn::before {
-    content: "";
-    position: absolute;
-    inset: 2px;
-    background: #272822;
+  100% {
+    transform: translateX(0);
   }
-  
-  .project-btn span {
-    position: relative;
-    z-index: 1;
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
   }
-  .project-btn i {
-    position: absolute;
-    inset: 0;
-    display: block;
+  50% {
+    box-shadow: 0 0 25px #39ff14;
   }
-  
-  .project-btn i::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 2px;
-    left: 80%;
-    top: -2px;
-    border: 2px solid  #39FF14;
-    background: #272822;
-    transition: 0.2s;
+  100% {
+    box-shadow: #27272c;
   }
-  
-  .project-btn:hover i::before {
-    width: 15px;
-    left: 20%;
-    animation: move 3s infinite;
-  }
-  
-  .project-btn i::after {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 2px;
-    left: 20%;
-    bottom: -2px;
-    border: 2px solid #39FF14;
-    background: #272822;
-    transition: 0.2s;
-  }
-  
-  .project-btn:hover i::after {
-    width: 15px;
-    left: 80%;
-    animation: move 3s infinite;
-  }
-  
-  @keyframes move {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(5px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes box {
-    0% {
-      box-shadow: #27272c;
-    }
-    50% {
-      box-shadow: 0 0 25px  #39FF14;
-    }
-    100% {
-      box-shadow: #27272c;
-    }
-  }
-  
+}
