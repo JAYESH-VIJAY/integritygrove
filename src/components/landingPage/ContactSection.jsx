@@ -1,4 +1,3 @@
-import React from "react";
 
 const ContactSection = () => {
   return (
@@ -11,7 +10,7 @@ const ContactSection = () => {
                 <h6 className="sub-title wow fadeInUp">Get In Touch</h6>
                 <h2 className="fz-50 d-rotate wow">
                   <span className="rotate-text">
-                    Let's make your brand brilliant!
+                    Let&apos;s make your brand brilliant!
                   </span>
                 </h2>
                 <p className="fz-15 mt-10">
@@ -97,7 +96,7 @@ const ContactSection = () => {
                           type="submit"
                           className="butn butn-full butn-bord radius-30"
                         >
-                          <span className="text">Let's Talk</span>
+                          <span className="text">Let&apos;s Talk</span>
                         </button>
                       </div>
                     </div>
