@@ -5,7 +5,7 @@ import { icon3 } from '../../assets/imgs/HomePage'
 function Services() {
   return (
     <>
-        <section className="serv-box section-padding">
+      <section className="serv-box section-padding">
       <div className="container">
         <div className="sec-lg-head mb-80">
           <div className="row">
