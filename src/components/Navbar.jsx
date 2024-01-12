@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container">
         {/* logo */}
         <Link className="logo icon-img-100" href="#">
-          <img src={LogoImage} alt="logo" />
+          <p style={{fontSize: "20px", fontWeight: "600"}}>IG Tech</p>
         </Link>
         <button
           className="navbar-toggler"
