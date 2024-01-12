@@ -1,4 +1,4 @@
-import {TeamMember} from '../../assets/imgs/HomePage'
+import { TeamMember } from '../../assets/imgs/HomePage'
 
 function LeftProjects() {
   return (

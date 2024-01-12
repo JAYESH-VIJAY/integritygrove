@@ -1,18 +1,17 @@
 import React from 'react'
-// import Starcircle from '../../assets/imgs/HomePage';
-// import Bg1 from '../../assets/imgs/HomePage';
+import { Bg1, StarCircle } from '../../assets/imgs/HomePage';
 
 function Parallex() {
   return (
     <>
       <section className="call-action-img">
         <div className="container">
-          <div className="sec-bg-img bg-img parallaxie" data-background="assets/imgs/background/2.jpg" style={{backgroundImage: `url(Bg1)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: 'center -6.225px'}} />
+          <div className="sec-bg-img bg-img parallaxie" style={{ backgroundImage: `url(${Bg1})` }} />
           <div className="sec-lg-head section-padding">
             <div className="row ontop">
               <div className="col-11 d-flex align-items-center">
                 <div>
-                  <h2 className="fz-50 d-rotate wow animated" style={{visibility: 'visible'}}>
+                  <h2 className="fz-50 d-rotate wow animated" style={{ visibility: 'visible' }}>
                     <span className="rotate-text">Have a project in mind?</span>
                     <span className="rotate-text">Let’s <span>get to work</span>.</span>
                   </h2>
@@ -26,8 +25,7 @@ function Parallex() {
                         </svg></span>
                       <span className="full-width">Get In Touch</span>
                     </div>
-                    {/* <img src={Starcircle} alt="" className="circle-star" /> */}
-                    <img src='' alt="" className="circle-star" />
+                    <img src={StarCircle} alt="" className="circle-star" />
                   </a>
                 </div>
               </div>

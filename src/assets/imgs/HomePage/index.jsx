@@ -11,7 +11,7 @@ import TeamMember from "./testim/1.jpg";
 import icon1 from "./serv-icons/0.png";
 import icon2 from "./serv-icons/1.png";
 import icon3 from "./serv-icons/2.png";
-import Starcircle from "./svg-assets/circle-star.png";
+import StarCircle from "./svg-assets/circle-star.png";
 import Bg1 from "./background/4.jpg";
 
 export {
@@ -28,6 +28,6 @@ export {
   icon1,
   icon2,
   icon3,
-  Starcircle,
+  StarCircle,
   Bg1,
 };

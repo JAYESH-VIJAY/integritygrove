@@ -5,7 +5,7 @@ import ProjectDesc from '@/components/Portfolio/ProjectDesc'
 function ProjectPage() {
   return (
     <>
-    <ProjectDesc/>
+      <ProjectDesc />
       <LeftProjects />
       <RightProjects />
     </>
