@@ -5,7 +5,7 @@ import OurTeam from "../components/landingPage/OurTeam";
 import Services from "../components/landingPage/Services";
 import ContactSection from "../components/landingPage/ContactSection";
 import Projects from "../components/landingPage/Projects";
-import AboutPage from "./AboutPage";
+// import AboutPage from "./AboutPage";
 
 export default function HomePage() {
   return (

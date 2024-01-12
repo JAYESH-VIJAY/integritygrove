@@ -1,7 +1,6 @@
-import React from 'react'
-import Header from '../components/ourTeamPage/Header'
-import TeamCrews from '@/components/ourTeamPage/TeamCrews'
-import Parallex from '@/components/ourTeamPage/Parallex'
+import Header from "../components/ourTeamPage/Header";
+import TeamCrews from "@/components/ourTeamPage/TeamCrews";
+import Parallex from "@/components/ourTeamPage/Parallex";
 function OurTeamPage() {
   return (
     <>
@@ -9,7 +8,7 @@ function OurTeamPage() {
       <TeamCrews />
       <Parallex />
     </>
-  )
+  );
 }
 
-export default OurTeamPage
+export default OurTeamPage;
