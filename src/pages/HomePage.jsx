@@ -16,8 +16,7 @@ export default function HomePage() {
       <Projects />
       <Testomonials />
       <OurTeam />
-      <ContactSection /> 
-       {/* <AboutPage /> */}
+      <ContactSection />
     </main>
   );
 }

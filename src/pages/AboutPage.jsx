@@ -1,5 +1,5 @@
 import React from 'react';
-import { TestomoImage1, aboutImg1,aboutImg2, teammember } from '../assets/imgs/HomePage/index';
+import { TestomoImage1, aboutImg1,aboutImg2, TeamMember } from '../assets/imgs/HomePage/index';
 const AboutPage = () => {
     return (
 
@@ -458,7 +458,7 @@ const AboutPage = () => {
                                     <div className="swiper-wrapper" bis_skin_checked={1} style={{ transitionDuration: '0ms', transform: 'translate3d(-987.5px, 0px, 0px)' }}><div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index={1} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                         <div className="item" bis_skin_checked={1}>
                                             <div className="img" bis_skin_checked={1}>
-                                                <img src={teammember} alt="" />
+                                                <img src={TeamMember} alt="" />
                                             </div>
                                             <div className="info" bis_skin_checked={1}>
                                                 <div className="main-marq team-position" bis_skin_checked={1}>
@@ -542,7 +542,7 @@ const AboutPage = () => {
                                     </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-slide-index={2} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -626,7 +626,7 @@ const AboutPage = () => {
                                         </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-slide-index={3} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -710,7 +710,7 @@ const AboutPage = () => {
                                         </div><div className="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index={4} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -795,7 +795,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide swiper-slide-active" data-swiper-slide-index={0} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -880,7 +880,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide swiper-slide-next" data-swiper-slide-index={1} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -965,7 +965,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide" data-swiper-slide-index={2} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1050,7 +1050,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide" data-swiper-slide-index={3} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1135,7 +1135,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index={4} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1220,7 +1220,7 @@ const AboutPage = () => {
                                         <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index={0} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1304,7 +1304,7 @@ const AboutPage = () => {
                                         </div><div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index={1} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1388,7 +1388,7 @@ const AboutPage = () => {
                                         </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-slide-index={2} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
@@ -1472,7 +1472,7 @@ const AboutPage = () => {
                                         </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-slide-index={3} bis_skin_checked={1} style={{ width: '335px', marginRight: '60px' }}>
                                             <div className="item" bis_skin_checked={1}>
                                                 <div className="img" bis_skin_checked={1}>
-                                                    <img src={teammember} alt="" />
+                                                    <img src={TeamMember} alt="" />
                                                 </div>
                                                 <div className="info" bis_skin_checked={1}>
                                                     <div className="main-marq team-position" bis_skin_checked={1}>
