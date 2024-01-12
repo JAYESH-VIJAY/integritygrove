@@ -21,7 +21,9 @@ function App() {
   return (
     <Routes>
       <Route element={<HomeLayout />}>
-        <Route index element={<ProjectPage />} />
+        <Route index element={<HomePage/>} />
+        {/* <Route index element={<OurTeamPage/>} /> */}
+        {/* <Route index element={<ProjectPage />} /> */}
       </Route>
     </Routes>
   );

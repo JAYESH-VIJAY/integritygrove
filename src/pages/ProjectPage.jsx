@@ -1,4 +1,3 @@
-import React from 'react'
 import LeftProjects from '@/components/Portfolio/LeftProjects'
 import RightProjects from '@/components/Portfolio/RightProjects'
 
