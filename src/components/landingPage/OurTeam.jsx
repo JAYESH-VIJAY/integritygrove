@@ -1,4 +1,5 @@
-import { teammember } from "../../assets/imgs/HomePage";
+import {TeamMember} from '../../assets/imgs/HomePage'
+
 function OurTeam() {
   const memberdata = [
     {
@@ -67,7 +68,7 @@ function OurTeam() {
               <div className="col-lg-3 col-md-6" style={{margin:"12px",width:"23%"}} key={index}>
                 <div className="item mb-50" >
                   <div className="img">
-                    <img src={teammember} alt="" />
+                    <img src={TeamMember} alt="" />
                   </div>
                   <div className="info mt-20">
                     <span className="fz-12 opacity-8">{data.designation}</span>

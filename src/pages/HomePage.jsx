@@ -10,14 +10,13 @@ import AboutPage from "./AboutPage";
 export default function HomePage() {
   return (
     <main className="main-bg">
-      {/* <IntroSlider />
+      <IntroSlider />
       <Services />
       <Pricing />
       <Projects />
       <Testomonials />
       <OurTeam />
-      <ContactSection /> */}
-      {/* <AboutPage /> */}
+      <ContactSection />
     </main>
   );
 }

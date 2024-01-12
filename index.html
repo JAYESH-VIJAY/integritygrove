@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>IG-Tech</title>
-</head>
+    <!-- pe7-icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pe7-icon@1.0.4/dist/dist/pe-icon-7-stroke.min.css"
+    />
 
-<body>
-  <div class="cursor"></div>
+    <!-- Font Awesome Library cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
-  <!-- ==================== Start progress-scroll-button ==================== -->
+    <title>IG-Tech</title>
+  </head>
 
-  <div class="progress-wrap cursor-pointer">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
+  <body>
+    <div class="cursor"></div>
 
-  <!-- ==================== End progress-scroll-button ==================== -->
+    <!-- ==================== Start progress-scroll-button ==================== -->
 
-  <div id="root"></div>
-  <!-- externalscript -->
-  <!-- Include jQuery first -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
 
-  <!-- Then include Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- ==================== End progress-scroll-button ==================== -->
 
-  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js" type="module"></script>
+    <div id="root"></div>
+    <!-- externalscript -->
+    <!-- Include jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Then include Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"
+      type="module"
+    ></script>
 
     <script src="./JS/plugin.js" defer type="text/javascript"></script>
     <script src="./JS/scrolltrigger.js" defer type="text/javascript"></script>
     <script src="./JS/script.js" defer type="text/javascript"></script>
 
-  <!-- main.jsx file -->
-  <script type="module" src="/src/main.jsx"></script>
-
-  
-</body>
-
+    <!-- main.jsx file -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

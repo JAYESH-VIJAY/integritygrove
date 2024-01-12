@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import HomeLayout from "./layout/HomeLayout";
 import OurTeamPage from "./pages/OurTeamPage";
-import ProjectPage from "./pages/ProjectPage";
+import ProjectPage from "./pages/PortfolioPage";
+import AboutPage from "./pages/AboutPage";
+import Header from "./components/ourTeamPage/Header";
 function App() {
   const [showLoader, setShowLoader] = useState(true);
   useEffect(() => {
@@ -21,7 +23,10 @@ function App() {
   return (
     <Routes>
       <Route element={<HomeLayout />}>
-        <Route index element={<ProjectPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/portfolio" element={<ProjectPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/ourteam" element={<OurTeamPage/>} />
       </Route>
     </Routes>
   );
