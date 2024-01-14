@@ -1,5 +1,19 @@
-
+import { useState } from "react";
+import { useForm } from "react-hook-form"
 const ContactSection = () => {
+
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   watch,
+  //   errors,
+  // } = useForm()
+  // const [message, setMessage] = useState();
+  // const onSubmit = (data) => {
+  //   console.log(data);
+  //   console.log(errors);
+  // }
+
   return (
     <section className="contact-crev no-crev section-padding">
       <div className="contact-container">
@@ -46,7 +60,7 @@ const ContactSection = () => {
             </div>
             <div className="col-lg-6 offset-lg-1 valign">
               <div className="full-width">
-                <form id="contact-form" method="post" action="contact.php">
+                <form id="contact-form" >
                   <div className="messages"></div>
                   <div className="controls row">
                     <div className="col-lg-6">
@@ -56,7 +70,7 @@ const ContactSection = () => {
                           type="text"
                           name="name"
                           placeholder="Name"
-                          required="required"
+                          // ref={register({ required: "Username is required" })}
                         />
                       </div>
                     </div>
@@ -67,7 +81,7 @@ const ContactSection = () => {
                           type="email"
                           name="email"
                           placeholder="Email"
-                          required="required"
+                          // ref={register({ required: "Email is required" })}
                         />
                       </div>
                     </div>
@@ -78,6 +92,7 @@ const ContactSection = () => {
                           type="text"
                           name="subject"
                           placeholder="Subject"
+                          // ref={register({ required: "Subject is required" })}
                         />
                       </div>
                     </div>
@@ -88,7 +103,7 @@ const ContactSection = () => {
                           name="message"
                           placeholder="Message"
                           rows="4"
-                          required="required"
+                          // ref={register({ required: "Message is required" })}
                         ></textarea>
                       </div>
                       <div className="mt-30">
@@ -96,7 +111,7 @@ const ContactSection = () => {
                           type="submit"
                           className="butn butn-full butn-bord radius-30"
                         >
-                          <span className="text">Let&apos;s Talk</span>
+                          <span className="text">Let's Talk</span>
                         </button>
                       </div>
                     </div>
