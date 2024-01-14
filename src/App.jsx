@@ -7,6 +7,7 @@ import OurTeamPage from "./pages/OurTeamPage";
 import ProjectPage from "./pages/PortfolioPage";
 import AboutPage from "./pages/AboutPage";
 import Header from "./components/ourTeamPage/Header";
+import ContactPage from "./pages/ContactPage";
 function App() {
   const [showLoader, setShowLoader] = useState(true);
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/portfolio" element={<ProjectPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/ourteam" element={<OurTeamPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Route>
     </Routes>
   );

@@ -74,7 +74,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="page-contact.html">
+              <Link className="nav-link" to={'/contact'}>
                 <span className="rolling-text">Contact</span>
               </Link>
             </li>
