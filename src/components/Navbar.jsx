@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container">
         {/* logo */}
         <Link className="logo icon-img-100" href="#">
-          <p style={{fontSize: "20px", fontWeight: "600"}}>IG Tech</p>
+          <p style={{ fontSize: "20px", fontWeight: "600" }}>IG Tech</p>
         </Link>
         <button
           className="navbar-toggler"
@@ -32,7 +32,7 @@ export default function Navbar() {
                 <span className="rolling-text">Home</span>
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <Link
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -57,7 +57,7 @@ export default function Navbar() {
                   Hire
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item dropdown">
               <Link className="nav-link " to={"/portfolio"}>
                 <span className="rolling-text">Portfolio</span>
@@ -68,13 +68,18 @@ export default function Navbar() {
                 <span className="rolling-text">Services</span>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to={""}>
+                <span className="rolling-text">Hire</span>
+              </Link>
+            </li>
             <li className="nav-item dropdown">
               <Link className="nav-link " to={"/about"}>
                 <span className="rolling-text">About us</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={'/contact'}>
+              <Link className="nav-link" to={"/contact"}>
                 <span className="rolling-text">Contact</span>
               </Link>
             </li>
