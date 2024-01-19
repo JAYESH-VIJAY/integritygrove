@@ -5,11 +5,11 @@ function Footer () {
     <footer className="sub-bg">
       <div className="footer-container">
         <div className="container pb-80 pt-80 ontop">
-          <div className="call-box text-center mb-80">
+          {/* <div className="call-box text-center mb-80">
             <h2>
-              <Link href="page-contact.html">
+              { <Link href="page-contact.html">
                 Let&apos;s <span className="stroke"> Discuss</span>
-              </Link>
+              </Link> }
               <span className="arrow">
                 <svg
                   width={18}
@@ -25,7 +25,7 @@ function Footer () {
                 </svg>
               </span>
             </h2>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-3">
               <div className="colum md-mb50">
@@ -33,7 +33,7 @@ function Footer () {
                   <h6>Address</h6>
                 </div>
                 <div className="text">
-                  <p>Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
+                  <p>Gourav Vihar-B  kesar Circle Sanganer</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Footer () {
                     <Link href="#0">hello@design.com</Link>
                   </p>
                   <h5>
-                    <Link href="#">+1 840 841 25 69</Link>
+                    <Link href="#">+91 (844) 205 6834</Link>
                   </h5>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function Footer () {
                 <div className="copyright d-flex">
                   <div className="ml-auto">
                     <p className="fz-13">
-                      © 2023 Geekfolio is Proudly Powered by{" "}
+                      © 2023 IG Tech is Proudly Powered by{" "}
                       <span className="underline">
                         <Link to={"#"}>Ui-ThemeZ</Link>
                       </span>

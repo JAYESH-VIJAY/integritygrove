@@ -64,7 +64,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item dropdown">
-              <Link className="nav-link">
+              <Link className="nav-link" to={"service"}>
                 <span className="rolling-text">Services</span>
               </Link>
             </li>
