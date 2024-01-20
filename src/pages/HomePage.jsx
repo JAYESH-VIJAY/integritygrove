@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import IntroSlider from "../components/HomePage/IntroSlider";
 import Pricing from "../components/landingPage/Pricing";
-import Testimonials from "../components/landingPage/Testimonials"; // Fixed typo
-import OurTeam from "../components/landingPage/OurTeam";
+import Testomonials from "../components/landingPage/Testimonials";
+// import OurTeam from "../components/landingPage/OurTeam";
 import Services from "../components/landingPage/Services";
 import ContactSection from "../components/landingPage/ContactSection";
 import Projects from "../components/landingPage/Projects";
@@ -40,8 +40,8 @@ export default function HomePage() {
       <Services />
       <Pricing />
       <Projects />
-      <Testimonials />
-      <OurTeam />
+      <Testomonials />
+      {/* <OurTeam /> */}
       <ContactSection />
     </main>
   );

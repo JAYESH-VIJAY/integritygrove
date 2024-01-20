@@ -32,7 +32,7 @@ const ContactSection = () => {
                   touch, we’d love to hear from you!
                 </p>
                 <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                  <a href="#0">+1 840 841 25 69</a>
+                  <a href="#0">+91 (844) 205 6834</a>
                 </div>
                 <ul className="rest social-text d-flex mt-60">
                   <li className="mr-30">
@@ -60,7 +60,7 @@ const ContactSection = () => {
             </div>
             <div className="col-lg-6 offset-lg-1 valign">
               <div className="full-width">
-                <form id="contact-form" >
+                <form id="contact-form">
                   <div className="messages"></div>
                   <div className="controls row">
                     <div className="col-lg-6">

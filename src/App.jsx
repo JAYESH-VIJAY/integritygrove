@@ -9,6 +9,7 @@ import ProjectPage from "./pages/PortfolioPage";
 import AboutPage from "./pages/AboutPage";
 import Header from "./components/ourTeamPage/Header";
 import ContactPage from "./pages/ContactPage";
+import ServicePage from "./pages/ServicePage";
 
 function App() {
   const { pathname, search } = useLocation();
@@ -53,6 +54,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/ourteam" element={<OurTeamPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/service" element={<ServicePage />} />
       </Route>
     </Routes>
   );
