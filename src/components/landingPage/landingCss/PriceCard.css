@@ -1,6 +1,7 @@
 .main-cardbox{
-    height: 32rem;
-    
+      padding: 16px 8
+      px;
+    height: 31rem;
 }
 .card-part1,.card-part2{
      display: flex;
@@ -44,7 +45,7 @@
     background-color: rgb(62, 76, 63);
     background-size: cover;
     background-position: center;
-    bottom:32rem;
+    bottom:29rem;
     position: relative;
     filter: brightness(0.8);
     justify-content: flex-end;
