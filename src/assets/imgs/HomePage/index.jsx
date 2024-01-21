@@ -37,7 +37,7 @@ import Logo12 from "./Logos/sql.png";
 import Logo13 from "./Logos/unittesting.png";
 import StarCircle from "./svg-assets/circle-star.png";
 import Bg1 from "./background/4.jpg";
-
+import BackgroundImage from "./background/background124.jpg"
 export {
   LogoImage,
   HomeSliderBackground,
@@ -75,5 +75,6 @@ export {
   Project4,
   Project5,
   StarCircle,
-  Bg1
+  Bg1,
+  BackgroundImage
 };

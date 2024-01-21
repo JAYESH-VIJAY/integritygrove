@@ -1,0 +1,68 @@
+.main-cardbox{
+    height: 32rem;
+    
+}
+.card-part1,.card-part2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease 0.8s;
+    transform-origin: center;
+    height: 100%;
+    border-radius: 5px;
+ 
+}
+.card-part1{
+    background-color: #1a1a1a;
+    transform:rotate3d(0, 2, 0, -180deg);
+    border: 1px solid rgba(255, 255, 255, 0.578);
+}
+
+.card-part1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card-part1 ul li{
+    padding: 15px;
+}
+.card-part1 .Price-btn{
+    border-radius: 2px;
+    padding: 11px 22px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 14px;
+     color: white;
+}
+.Price-btn:hover{
+    background-color: #55e6a5 ;
+
+}
+.card-part2{
+    background-color: rgb(62, 76, 63);
+    background-size: cover;
+    background-position: center;
+    bottom:32rem;
+    position: relative;
+    filter: brightness(0.8);
+    justify-content: flex-end;
+}
+.card-part2 .price-description{
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 5px 35px;
+ border-radius: 5px;
+}
+
+
+.main-cardbox:hover{
+    .card-part1{
+        transform:rotate3d(0, 2, 0, 0deg);
+    }
+    .card-part2{
+         transform: rotate3d(0, 2, 0, 180deg);
+         opacity: 0;
+    }
+}
